@@ -1,0 +1,4399 @@
+[tf.epccfe.schd.SchdMain] - [09:08:51,157][Default 090850#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:08:51,230][Default 090850#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:08:51,232][Default 090850#0000]开始启动前置HTTP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:08:51,839][Default 090851#0000]前置HTTP服务器启动成功! Http Server listening on 7070
+[tf.epccfe.schd.SchdMain] - [09:09:07,025][Default 090906#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:09:07,033][Default 090906#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:09:07,034][Default 090906#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:09:07,496][Default 090907#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:09:10,948][Default 090910#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:10,989][Default 090910#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:12,241][Default 090910#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:12,242][Default 090910#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:12,396][Default 090910#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@5fdfe483
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:09:12,441][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:09:12,484][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:09:12,524][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:09:12,548][Default 090910#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:09:26,823][Default 090926#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:26,865][Default 090926#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:28,295][Default 090926#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:28,296][Default 090926#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:09:28,555][Default 090926#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@28418f4b
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:09:28,630][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:09:28,710][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:09:28,792][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:09:28,802][Default 090926#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:10:00,003][Default 090926#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:00,004][Default 090926#0000]SFTP Session created.
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:10:00,003][Default 090910#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:00,005][Default 090910#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:01,233][Default 090910#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:01,234][Default 090910#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:01,352][Default 090926#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:01,352][Default 090926#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:01,807][Default 090910#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@1e850482
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:01,868][Default 090926#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@36624a36
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:01,940][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:02,009][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:02,085][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:02,158][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:02,230][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:10:02,242][Default 090910#0000]定时下载当时所有文件成功！
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:02,301][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:10:02,302][Default 090926#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.SchdMain] - [09:10:27,373][Default 091026#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [09:10:27,383]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [09:10:27,471]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0x885b0728, L:/192.168.20.43:2127 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [09:10:27,565][Default 091026#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0xe3536c97, L:/192.168.20.43:7070 - R:/192.168.20.43:2127])
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:10:27,573][Thread 091026#0001]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:10:27,575][Thread 091026#0001]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:10:27,577][Thread 091026#0001]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:10:27,578][Thread 091026#0001]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:10:27,580][Thread 091026#0001]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:10:27,580][Thread 091026#0001]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.forward.target.epccb.TcpXmlClientForEpccb] - [09:10:27,656][Thread 091026#0001]发往【行内】请求内容 : EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [09:10:27,722][Thread 091026#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [09:10:31,458][Default 091027#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x5e29f035, L:/192.168.20.43:2146 - R:/192.168.20.43:7080])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:10:31,533][Default 091027#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0xf6e59936, L:/192.168.20.43:7080 - R:/192.168.20.43:2146])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:10:31,538][Default 091027#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0xf6e59936, L:/192.168.20.43:7080 - R:/192.168.20.43:2146])
+[boot.tcp.codec.TcpXmlDecoder] - [09:10:31,544][Thread 091027#0001]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [09:10:31,551][Thread 091027#0001]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:10:31,551][Thread 091027#0001]【交易开始】
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:10:31,551][Thread 091027#0001]接收到【行内】请求报文成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:10:31,551][Thread 091027#0001]接收到【行内】的报文内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:10:47,258][Default 091047#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:47,284][Default 091047#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:48,168][Default 091047#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:48,169][Default 091047#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:10:48,317][Default 091047#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@23b5810f
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:48,362][Default 091048#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:48,403][Default 091048#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:10:48,443][Default 091048#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:10:48,452][Default 091047#0000]定时下载当时所有文件成功！
+[io.netty.channel.AbstractChannelHandlerContext] - [09:11:27,733]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.timeout.ReadTimeoutException
+[tf.epccfe.schd.SchdMain] - [09:22:56,806][Default 092256#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:22:56,813][Default 092256#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:22:56,857][Default 092256#0000]开始启动前置HTTP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:22:57,224][Default 092256#0000]前置HTTP服务器启动成功! Http Server listening on 7070
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:23:16,690][Default 092316#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:23:16,719][Default 092316#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:23:17,550][Default 092316#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:23:17,550][Default 092316#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:23:17,698][Default 092316#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@407df228
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:23:17,742][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:23:17,782][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:23:17,822][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:23:17,827][Default 092316#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.SchdMain] - [09:24:48,736][Default 092447#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:24:48,745][Default 092447#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:24:48,747][Default 092447#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:24:49,347][Default 092448#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:25:08,454][Default 092508#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:08,492][Default 092508#0000]SFTP Session created.
+[tf.epccfe.schd.SchdMain] - [09:25:09,906][Default 092509#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [09:25:09,915]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [09:25:09,978]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0xd2a4f534, L:/192.168.20.43:2464 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [09:25:10,085][Default 092509#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0xc4b435ce, L:/192.168.20.43:7070 - R:/192.168.20.43:2464])
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:25:10,093][Thread 092509#0001]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:25:10,095][Thread 092509#0001]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:25:10,097][Thread 092509#0001]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:25:10,098][Thread 092509#0001]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:25:10,099][Thread 092509#0001]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:25:10,099][Thread 092509#0001]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.forward.target.epccb.TcpXmlClientForEpccb] - [09:25:10,163][Thread 092509#0001]发往【行内】请求内容 : EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:10,201][Default 092508#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:10,202][Default 092508#0000]SFTP Opening Channel.
+[boot.tcp.codec.TcpXmlEncoder] - [09:25:10,231][Thread 092509#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:10,396][Default 092508#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@529762a
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:25:10,483][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:25:10,524][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:25:10,563][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:25:10,569][Default 092508#0000]定时下载当时所有文件成功！
+[boot.tcp.codec.LengthHeaderPrepender] - [09:25:14,086][Default 092510#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x40317122, L:/192.168.20.43:2483 - R:/192.168.20.43:7080])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:25:14,191][Default 092510#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x3aea3e51, L:/192.168.20.43:7080 - R:/192.168.20.43:2483])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:25:14,204][Default 092510#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x3aea3e51, L:/192.168.20.43:7080 - R:/192.168.20.43:2483])
+[boot.tcp.codec.TcpXmlDecoder] - [09:25:14,211][Thread 092510#0001]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [09:25:14,214][Thread 092510#0001]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:25:14,214][Thread 092510#0001]【交易开始】
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:25:14,214][Thread 092510#0001]接收到【行内】请求报文成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:25:14,214][Thread 092510#0001]接收到【行内】的报文内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:25:29,781][Default 092529#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:29,816][Default 092529#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:30,845][Default 092529#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:30,845][Default 092529#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:25:30,997][Default 092529#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@14585926
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:25:31,041][Default 092531#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:25:31,083][Default 092531#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:25:31,123][Default 092531#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:25:31,129][Default 092529#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:40:00,003][Default 092316#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:00,004][Default 092316#0000]SFTP Session created.
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:40:00,002][Default 092508#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:00,060][Default 092508#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:00,428][Default 092316#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:00,429][Default 092316#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:00,588][Default 092316#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@7ea63bdd
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:40:00,630][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:40:00,712][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:40:00,754][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:40:00,755][Default 092316#0000]定时下载当时所有文件成功！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:00,914][Default 092508#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:00,914][Default 092508#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:40:01,101][Default 092508#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@4e80cc93
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:40:01,159][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:40:01,208][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:40:01,272][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:40:01,295][Default 092508#0000]定时下载当时所有文件成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:44:12,095][Thread 092510#0001]返回给【行内】的响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [09:44:13,794][Thread 092510#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [09:44:15,408][Default 092510#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x3aea3e51, L:/192.168.20.43:7080 - R:/192.168.20.43:2483])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:44:15,412][Default 092510#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x40317122, L:/192.168.20.43:2483 - R:/192.168.20.43:7080])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:44:15,413][Default 092510#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x40317122, L:/192.168.20.43:2483 - R:/192.168.20.43:7080])
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:44:15,413][Thread 092510#0001]---【1141199】毫秒  [线程全程] 耗时1141秒【10秒警告】--------
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:44:15,414][Thread 092510#0001]【交易结束】
+[boot.tcp.codec.TcpXmlDecoder] - [09:44:15,415][Thread 092510#0002]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [09:44:15,430][Thread 092510#0002]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.client.TcpXmlClientHandle] - [09:44:15,430][Thread 092509#0001]【行内】响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:44:19,491][Thread 092509#0001]返回给【网联】的响应Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800      ;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:44:19,491][Thread 092509#0001]返回给【网联】的响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.http.codec.AbstractHttpXmlEncoder] - [09:44:19,492][Thread 092509#0001]【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlResponseEncoder] - [09:44:19,497][Thread 092509#0001]返回【网联】HTTP响应报文！ChannelHandlerContext(xml-encoder, [id: 0xc4b435ce, L:/192.168.20.43:7070 - R:/192.168.20.43:2464])
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:44:19,503][Thread 092509#0001]---【1149406】毫秒  [线程全程] 耗时1149秒【10秒警告】--------
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:44:19,503][Thread 092509#0001]【交易结束】
+[tf.epccfe.schd.SchdMain] - [09:46:05,200][Default 094604#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:46:05,235][Default 094604#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:46:05,239][Default 094604#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:46:05,769][Default 094605#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:46:25,039][Default 094625#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:25,111][Default 094625#0000]SFTP Session created.
+[tf.epccfe.schd.SchdMain] - [09:46:25,171][Default 094624#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:46:25,181][Default 094623#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:46:25,184][Default 094623#0000]开始启动前置HTTP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:46:26,092][Default 094625#0000]前置HTTP服务器启动成功! Http Server listening on 7070
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:26,242][Default 094625#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:26,242][Default 094625#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:26,386][Default 094625#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@22a41ee1
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:26,435][Default 094626#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:26,476][Default 094626#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:26,515][Default 094626#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:46:26,525][Default 094625#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.SchdMain] - [09:46:37,959][Default 094637#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [09:46:37,967]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [09:46:38,026]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0x8b289c10, L:/192.168.20.43:2807 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [09:46:38,137][Default 094637#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0xdd67aae9, L:/192.168.20.43:7070 - R:/192.168.20.43:2807])
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:46:38,148][Thread 094637#0001]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:46:38,151][Thread 094637#0001]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:46:38,153][Thread 094637#0001]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:46:38,154][Thread 094637#0001]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:46:38,155][Thread 094637#0001]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:46:38,155][Thread 094637#0001]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.forward.target.epccb.TcpXmlClientForEpccb] - [09:46:38,219][Thread 094637#0001]发往【行内】请求内容 : EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [09:46:38,285][Thread 094637#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [09:46:40,189][Default 094638#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x426a7d63, L:/192.168.20.43:2826 - R:/192.168.20.43:7080])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:46:40,306][Default 094638#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x419b2389, L:/192.168.20.43:7080 - R:/192.168.20.43:2826])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:46:40,313][Default 094638#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x419b2389, L:/192.168.20.43:7080 - R:/192.168.20.43:2826])
+[boot.tcp.codec.TcpXmlDecoder] - [09:46:40,321][Thread 094638#0001]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [09:46:40,327][Thread 094638#0001]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:46:40,327][Thread 094638#0001]【交易开始】
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:46:40,327][Thread 094638#0001]接收到【行内】请求报文成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:46:40,328][Thread 094638#0001]接收到【行内】的报文内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:46:44,891][Default 094644#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:44,929][Default 094644#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:45,938][Default 094644#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:45,939][Default 094644#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:46,105][Default 094644#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@42064d82
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:46,207][Default 094646#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:46,254][Default 094646#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:46,294][Default 094646#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:46:46,304][Default 094644#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:46:57,830][Default 094657#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:57,876][Default 094657#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:59,016][Default 094657#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:59,017][Default 094657#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:46:59,190][Default 094657#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@4c66f0b4
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:59,238][Default 094659#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:59,280][Default 094659#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:46:59,326][Default 094659#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:46:59,333][Default 094657#0000]定时下载当时所有文件成功！
+[io.netty.channel.AbstractChannelHandlerContext] - [09:48:27,274]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+[tf.epccfe.schd.SchdMain] - [09:49:08,866][Default 094907#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:49:08,877][Default 094907#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:49:08,879][Default 094907#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:49:09,526][Default 094908#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:49:28,690][Default 094928#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:49:28,732][Default 094928#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:49:30,173][Default 094928#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:49:30,174][Default 094928#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:49:30,334][Default 094928#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@6324be57
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:49:30,378][Default 094930#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:49:30,420][Default 094930#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:49:30,460][Default 094930#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:49:30,466][Default 094928#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.SchdMain] - [09:50:32,387][Default 095031#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:50:32,398][Default 095031#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:50:32,422][Default 095031#0000]开始启动前置HTTP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:50:33,021][Default 095032#0000]前置HTTP服务器启动成功! Http Server listening on 7070
+[tf.epccfe.schd.SchdMain] - [09:50:40,275][Default 095039#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [09:50:40,283]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [09:50:40,352]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0xefc5442f, L:/192.168.20.43:3012 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [09:50:40,430][Default 095039#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0x9aa91588, L:/192.168.20.43:7070 - R:/192.168.20.43:3012])
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:50:40,440][Thread 095039#0001]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:50:40,442][Thread 095039#0001]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:50:40,444][Thread 095039#0001]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:50:40,444][Thread 095039#0001]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:50:40,445][Thread 095039#0001]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:50:40,445][Thread 095039#0001]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.forward.target.epccb.TcpXmlClientForEpccb] - [09:50:40,495][Thread 095039#0001]发往【行内】请求内容 : EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [09:50:40,555][Thread 095039#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [09:50:41,743][Default 095040#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x0536a70f, L:/192.168.20.43:3031 - R:/192.168.20.43:7080])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:50:41,802][Default 095040#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x727cf645, L:/192.168.20.43:7080 - R:/192.168.20.43:3031])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:50:41,808][Default 095040#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x727cf645, L:/192.168.20.43:7080 - R:/192.168.20.43:3031])
+[boot.tcp.codec.TcpXmlDecoder] - [09:50:41,814][Thread 095040#0001]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [09:50:41,817][Thread 095040#0001]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:50:41,817][Thread 095040#0001]【交易开始】
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:50:41,818][Thread 095040#0001]接收到【行内】请求报文成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:50:41,818][Thread 095040#0001]接收到【行内】的报文内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:50:52,207][Default 095052#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:50:52,238][Default 095052#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:50:53,152][Default 095052#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:50:53,153][Default 095052#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:50:53,312][Default 095052#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@9aa4843
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:50:53,358][Default 095053#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:50:53,400][Default 095053#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:50:53,440][Default 095053#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:50:53,446][Default 095052#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:51:00,168][Default 095100#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:51:00,198][Default 095100#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:51:01,065][Default 095100#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:51:01,066][Default 095100#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:51:01,214][Default 095100#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@7a44e09b
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:51:01,257][Default 095101#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:51:01,298][Default 095101#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:51:01,338][Default 095101#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:51:01,345][Default 095100#0000]定时下载当时所有文件成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:53:39,213][Thread 095040#0001]返回给【行内】的响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [09:53:40,997][Thread 095040#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [09:53:41,792][Default 095040#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x727cf645, L:/192.168.20.43:7080 - R:/192.168.20.43:3031])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:53:41,796][Default 095040#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x0536a70f, L:/192.168.20.43:3031 - R:/192.168.20.43:7080])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [09:53:41,797][Default 095040#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x0536a70f, L:/192.168.20.43:3031 - R:/192.168.20.43:7080])
+[boot.tcp.codec.TcpXmlDecoder] - [09:53:41,799][Thread 095040#0002]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [09:53:41,800][Thread 095040#0002]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.client.TcpXmlClientHandle] - [09:53:41,800][Thread 095039#0001]【行内】响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:53:41,805][Thread 095040#0001]---【179988】毫秒  [线程全程] 耗时179秒【10秒警告】--------
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [09:53:41,805][Thread 095040#0001]【交易结束】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:53:48,098][Thread 095039#0001]返回给【网联】的响应Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800      ;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:53:48,098][Thread 095039#0001]返回给【网联】的响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.http.codec.AbstractHttpXmlEncoder] - [09:53:48,099][Thread 095039#0001]【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlResponseEncoder] - [09:53:48,103][Thread 095039#0001]返回【网联】HTTP响应报文！ChannelHandlerContext(xml-encoder, [id: 0x9aa91588, L:/192.168.20.43:7070 - R:/192.168.20.43:3012])
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:53:48,109][Thread 095039#0001]---【187665】毫秒  [线程全程] 耗时187秒【10秒警告】--------
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:53:48,109][Thread 095039#0001]【交易结束】
+[tf.epccfe.schd.SchdMain] - [09:54:54,754][Default 095454#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:54:54,772][Default 095453#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:54:54,781][Default 095453#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:54:55,171][Default 095454#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.SchdMain] - [09:57:48,107][Default 095747#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:57:48,122][Default 095747#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:57:48,138][Default 095747#0000]开始启动前置HTTP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:57:48,606][Default 095748#0000]前置HTTP服务器启动成功! Http Server listening on 7070
+[tf.epccfe.schd.SchdMain] - [09:58:01,219][Default 095800#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:58:01,238][Default 095800#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:58:01,267][Default 095800#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:58:01,725][Default 095801#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:58:07,922][Default 095807#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:58:07,956][Default 095807#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:58:09,190][Default 095807#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:58:09,191][Default 095807#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [09:58:09,348][Default 095807#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@3ee05ad6
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:58:09,391][Default 095809#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:58:09,432][Default 095809#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [09:58:09,472][Default 095809#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:58:09,478][Default 095807#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.SchdMain] - [09:58:17,654][Default 095817#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [09:58:17,667]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [09:58:17,718]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0xe904ad9c, L:/192.168.20.43:3303 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [09:58:17,815][Default 095817#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0x536df37b, L:/192.168.20.43:7070 - R:/192.168.20.43:3303])
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:58:17,826][Thread 095817#0001]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [09:58:17,828][Thread 095817#0001]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:58:17,831][Thread 095817#0001]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:58:17,831][Thread 095817#0001]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:58:17,832][Thread 095817#0001]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:58:17,832][Thread 095817#0001]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [09:58:17,839][Thread 095817#0001]Unable to access binding information for class tf.epccfe.entity.MsgHeader
+Make sure the binding has been compiled
+Unable to access binding information for class tf.epccfe.entity.MsgHeader
+Make sure the binding has been compiled
+java.lang.NoSuchFieldException: JiBX_bindingList
+	at java.lang.Class.getDeclaredField(Class.java:1882)
+	at org.jibx.runtime.BindingDirectory.getBindingList(BindingDirectory.java:68)
+	at org.jibx.runtime.BindingDirectory.getFactory(BindingDirectory.java:211)
+	at tf.epccfe.entity.Xml2Entity.xml2MsgHeader(Xml2Entity.java:16)
+	at tf.epccfe.flow.ERequestSign.excSign(ERequestSign.java:25)
+	at boot.http.server.EpccfeHttpXmlServerHandler.messageReceived(EpccfeHttpXmlServerHandler.java:40)
+	at boot.http.server.EpccfeHttpXmlServerHandler.channelRead0(EpccfeHttpXmlServerHandler.java:84)
+	at boot.http.server.EpccfeHttpXmlServerHandler.channelRead0(EpccfeHttpXmlServerHandler.java:1)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:934)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)
+
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [09:58:21,081][Default 095821#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [09:58:21,116][Default 095821#0000]SFTP Session created.
+[tf.epccfe.schd.SchdMain] - [09:59:57,644][Default 095956#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [09:59:57,663][Default 095956#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [09:59:57,695][Default 095956#0000]开始启动前置HTTP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [09:59:58,248][Default 095957#0000]前置HTTP服务器启动成功! Http Server listening on 7070
+[tf.epccfe.schd.SchdMain] - [10:00:07,709][Default 100006#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [10:00:07,725][Default 100006#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [10:00:07,739][Default 100006#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [10:00:08,157][Default 100007#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:00:17,494][Default 100017#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:00:17,532][Default 100017#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:00:18,856][Default 100017#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:00:18,857][Default 100017#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:00:19,006][Default 100017#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@2735877f
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:00:19,052][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:00:19,094][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:00:19,134][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:00:19,142][Default 100017#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:00:27,567][Default 100027#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:00:27,596][Default 100027#0000]SFTP Session created.
+[org.quartz.core.JobRunShell] - [10:00:28,217]Job DEFAULT.SFTPTestFileJob threw an unhandled Exception: 
+java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.findBootstrapClass(Native Method)
+	at java.lang.ClassLoader.findBootstrapClassOrNull(ClassLoader.java:926)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:297)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:295)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.jcraft.jsch.jce.AES256CTR.init(AES256CTR.java:56)
+	at com.jcraft.jsch.Session.checkCipher(Session.java:2497)
+	at com.jcraft.jsch.Session.checkCiphers(Session.java:2474)
+	at com.jcraft.jsch.Session.send_kexinit(Session.java:624)
+	at com.jcraft.jsch.Session.connect(Session.java:307)
+	at com.jcraft.jsch.Session.connect(Session.java:183)
+	at tf.epccfe.sftp.util.SFTPChannel.getChannel(SFTPChannel.java:71)
+	at tf.epccfe.sftp.util.SFTPChannel.getChannel(SFTPChannel.java:28)
+	at tf.epccfe.schd.sftp.SFTPAllFileJob.execute(SFTPAllFileJob.java:39)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:557)
+[org.quartz.simpl.SimpleThreadPool] - [10:00:28,575]Error while executing the Runnable: 
+java.lang.OutOfMemoryError: PermGen space
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:224)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:557)
+[tf.epccfe.schd.SchdMain] - [10:00:40,346][Default 100039#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [10:00:40,359]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [10:00:40,411]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0xa0bb0ea8, L:/192.168.20.43:3465 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [10:00:40,521][Default 100039#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0x2ac1994f, L:/192.168.20.43:7070 - R:/192.168.20.43:3465])
+[boot.http.codec.AbstractHttpXmlDecoder] - [10:00:40,534][Thread 100039#0001]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [10:00:40,536][Thread 100039#0001]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:00:40,537][Thread 100039#0001]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:00:40,537][Thread 100039#0001]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:00:40,538][Thread 100039#0001]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:00:40,539][Thread 100039#0001]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.forward.target.epccb.TcpXmlClientForEpccb] - [10:00:40,595][Thread 100039#0001]发往【行内】请求内容 : EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [10:00:40,682][Thread 100039#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[io.netty.channel.nio.NioEventLoop] - [10:00:40,982]Unexpected exception in the selector loop.
+java.lang.OutOfMemoryError: PermGen space
+[io.netty.channel.nio.NioEventLoop] - [10:00:42,252]Unexpected exception in the selector loop.
+java.lang.OutOfMemoryError: PermGen space
+[boot.tcp.codec.LengthHeaderPrepender] - [10:00:42,836][Default 100040#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x5f11249b, L:/192.168.20.43:3483 - R:/192.168.20.43:7080])
+报文体长度：00001640
+[io.netty.channel.nio.NioEventLoop] - [10:00:43,508]Unexpected exception in the selector loop.
+java.lang.OutOfMemoryError: PermGen space
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:01:00,231][Default 100100#0000]定时下载当时所有文件开始！
+[io.netty.channel.nio.NioEventLoop] - [10:01:00,091]Unexpected exception in the selector loop.
+java.lang.OutOfMemoryError: PermGen space
+[tf.epccfe.sftp.util.SFTPChannel] - [10:01:00,250][Default 100100#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:01:00,990][Default 100100#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:01:00,991][Default 100100#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:01:01,127][Default 100100#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@19ed00d1
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:01:01,169][Default 100101#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:01:01,209][Default 100101#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:01:01,248][Default 100101#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:01:01,253][Default 100100#0000]定时下载当时所有文件成功！
+[io.netty.channel.AbstractChannelHandlerContext] - [10:02:48,451]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)
+[tf.epccfe.schd.SchdMain] - [10:03:57,560][Default 100356#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [10:03:57,575][Default 100356#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [10:03:57,583][Default 100356#0000]开始启动前置TCP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [10:03:57,996][Default 100357#0000]前置TCP服务器启动成功! TCP Server listening on 7080
+[tf.epccfe.schd.SchdMain] - [10:04:06,837][Default 100406#0000]【网联接入前置】定时任务启动成功！
+[boot.tcp.server.EpccfeTcpServer] - [10:04:06,854][Default 100406#0000]正在初始化【epccfeServer】前置服务器（版本号：V1.0.2）...
+[boot.tcp.server.EpccfeTcpServer] - [10:04:06,867][Default 100406#0000]开始启动前置HTTP服务器...
+[boot.tcp.server.EpccfeTcpServer] - [10:04:07,328][Default 100406#0000]前置HTTP服务器启动异常!
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:126)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:130)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:988)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:250)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:365)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:04:17,453][Default 100417#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:17,494][Default 100417#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:18,737][Default 100417#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:18,738][Default 100417#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:18,893][Default 100417#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@1c39bf12
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:04:18,939][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:04:18,981][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:04:19,021][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:04:19,030][Default 100417#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.SchdMain] - [10:04:33,388][Default 100432#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [10:04:33,403]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [10:04:33,492]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0x0ed6ad24, L:/192.168.20.43:3677 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [10:04:33,537][Default 100039#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0x2da6af86, L:/192.168.20.43:7070 - R:/192.168.20.43:3677])
+[boot.http.codec.AbstractHttpXmlDecoder] - [10:04:33,541][Thread 100432#0003]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [10:04:33,566][Thread 100432#0003]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:04:33,567][Thread 100432#0003]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:04:33,567][Thread 100432#0003]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:04:33,567][Thread 100432#0003]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:04:33,580][Thread 100432#0003]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.forward.target.epccb.TcpXmlClientForEpccb] - [10:04:33,581][Thread 100432#0003]发往【行内】请求内容 : EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [10:04:33,592][Thread 100432#0003]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [10:04:36,855][Default 100040#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0xda74c2ed, L:/192.168.20.43:3695 - R:/192.168.20.43:7080])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [10:04:36,925][Default 100433#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x89b19201, L:/192.168.20.43:7080 - R:/192.168.20.43:3695])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [10:04:36,926][Default 100433#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x89b19201, L:/192.168.20.43:7080 - R:/192.168.20.43:3695])
+[boot.tcp.codec.TcpXmlDecoder] - [10:04:36,931][Thread 100433#0001]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [10:04:36,935][Thread 100433#0001]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:04:36,936][Thread 100433#0001]【交易开始】
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:04:36,936][Thread 100433#0001]接收到【行内】请求报文成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:04:36,936][Thread 100433#0001]接收到【行内】的报文内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:04:53,272][Default 100453#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:53,308][Default 100453#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:54,695][Default 100453#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:54,695][Default 100453#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:04:54,847][Default 100453#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@7a6dd8e1
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:04:54,891][Default 100454#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:04:54,931][Default 100454#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:04:54,970][Default 100454#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:04:54,978][Default 100453#0000]定时下载当时所有文件成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:06:14,863][Thread 100433#0001]返回给【行内】的响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [10:06:27,844][Thread 100433#0001]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [10:06:29,888][Default 100433#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x89b19201, L:/192.168.20.43:7080 - R:/192.168.20.43:3695])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [10:06:29,892][Default 100040#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0xda74c2ed, L:/192.168.20.43:3695 - R:/192.168.20.43:7080])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [10:06:29,893][Default 100040#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0xda74c2ed, L:/192.168.20.43:3695 - R:/192.168.20.43:7080])
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:06:29,895][Thread 100433#0001]---【112959】毫秒  [线程全程] 耗时112秒【10秒警告】--------
+[boot.tcp.codec.TcpXmlDecoder] - [10:06:29,896][Thread 100433#0004]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:06:29,896][Thread 100433#0001]【交易结束】
+[boot.tcp.codec.TcpXmlDecoder] - [10:06:29,912][Thread 100433#0004]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.client.TcpXmlClientHandle] - [10:06:29,913][Thread 100432#0003]【行内】响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:06:34,654][Thread 100432#0003]返回给【网联】的响应Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800      ;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:06:34,655][Thread 100432#0003]返回给【网联】的响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.http.codec.AbstractHttpXmlEncoder] - [10:06:34,659][Thread 100432#0003]【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlResponseEncoder] - [10:06:34,664][Thread 100432#0003]返回【网联】HTTP响应报文！ChannelHandlerContext(xml-encoder, [id: 0x2da6af86, L:/192.168.20.43:7070 - R:/192.168.20.43:3677])
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:06:34,668][Thread 100432#0003]---【121101】毫秒  [线程全程] 耗时121秒【10秒警告】--------
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:06:34,668][Thread 100432#0003]【交易结束】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:06:34,669][Thread 100432#0003]您的主机中的软件中止了一个已建立的连接。
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:10:00,002][Default 100417#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,004][Default 100417#0000]SFTP Session created.
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:10:00,002][Default 100017#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,006][Default 100017#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,412][Default 100417#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,412][Default 100417#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,423][Default 100017#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,424][Default 100017#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,531][Default 100417#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@1a5151a
+[tf.epccfe.sftp.util.SFTPChannel] - [10:10:00,542][Default 100017#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@3f8771dc
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:10:00,571][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:10:00,582][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:10:00,611][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:10:00,622][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:10:00,650][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:10:00,652][Default 100417#0000]定时下载当时所有文件成功！
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:10:00,661][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:10:00,664][Default 100017#0000]定时下载当时所有文件成功！
+[tf.epccfe.schd.sftp.SFTPAllStatementsFileJob] - [10:15:00,005][Default 101500#0000]定时下载所有对账明细文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,005][Default 100017#0000]SFTP Session created.
+[tf.epccfe.schd.sftp.SFTPAllStatementsFileJob] - [10:15:00,011][Default 101500#0000]定时下载所有对账明细文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,012][Default 100417#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,299][Default 100017#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,300][Default 100017#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,418][Default 100017#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@1ad997f9
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:00,457][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:00,497][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:00,537][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,538][Default 100017#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,616][Default 100417#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,617][Default 100417#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,737][Default 100417#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@1d642a9e
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:00,776][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:00,816][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,846][Default 100017#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,846][Default 100017#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:00,855][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,865][Default 100417#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:00,974][Default 100017#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@61735602
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:01,014][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:01,058][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:01,108][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllStatementsFileJob] - [10:15:01,109][Default 101500#0000]定时下载所有对账明细文件成功！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:01,166][Default 100417#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:01,166][Default 100417#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:15:01,284][Default 100417#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@563adea2
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:01,323][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:01,363][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:15:01,403][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllStatementsFileJob] - [10:15:01,404][Default 101500#0000]定时下载所有对账明细文件成功！
+[tf.epccfe.schd.SchdMain] - [10:17:01,602][Default 101701#0000]【网联接入前置】定时任务启动成功！
+[boot.http.codec.AbstractHttpXmlEncoder] - [10:17:01,612]null【网联】HTTP请求（或响应）报文内容：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.HttpXmlRequestEncoder] - [10:17:01,643]null发往【网联】HTTP请求报文！ChannelHandlerContext(xml-encoder, [id: 0x73a18008, L:/192.168.20.43:3880 - R:/192.168.20.43:7070])
+[boot.http.codec.HttpXmlRequestDecoder] - [10:17:01,669][Default 100039#0000]HTTP服务端接收到请求：ChannelHandlerContext(xml-decoder, [id: 0xcff8b3cc, L:/192.168.20.43:7070 - R:/192.168.20.43:3880])
+[boot.http.codec.AbstractHttpXmlDecoder] - [10:17:01,674][Thread 101701#0005]HTTP服务端接收到请求（或响应）报文：<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.http.codec.AbstractHttpXmlDecoder] - [10:17:01,674][Thread 101701#0005]HTTP服务端接收请求（或响应）报文解析正常！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:17:01,674][Thread 101701#0005]【交易开始】
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:17:01,674][Thread 101701#0005]接收到【网联】请求报文成功！
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:17:01,674][Thread 101701#0005]接收到【网联】请求Headers : [MsgTp:epcc.101.001.01;OriIssrId:G4000311000018;PyerAcctTp:00;PyeeAcctTp:04;ReservedField:1000F0617T8800;]
+[boot.http.server.EpccfeHttpXmlServerHandler] - [10:17:01,688][Thread 101701#0005]接收到【网联】请求内容 :EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.forward.target.epccb.TcpXmlClientForEpccb] - [10:17:01,688][Thread 101701#0005]发往【行内】请求内容 : EpccfeHeader [pkgLength=1640, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [10:17:01,698][Thread 101701#0005]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.LengthHeaderPrepender] - [10:17:03,943][Default 100040#0000]发往【行内】TCP请求（或响应）！ChannelHandlerContext(frameEncoder, [id: 0x856325fe, L:/192.168.20.43:3899 - R:/192.168.20.43:7080])
+报文体长度：00001640
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [10:17:03,944][Default 100433#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x349dcdc1, L:/192.168.20.43:7080 - R:/192.168.20.43:3899])
+[boot.tcp.codec.LengthHeaderBasedFrameDecoder] - [10:17:03,944][Default 100433#0000]TCP服务端接收到请求（或响应）：ChannelHandlerContext(frameDecoder, [id: 0x349dcdc1, L:/192.168.20.43:7080 - R:/192.168.20.43:3899])
+[boot.tcp.codec.TcpXmlDecoder] - [10:17:03,945][Thread 101701#0002]TCP服务端接收到请求（或响应）报文：epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[boot.tcp.codec.TcpXmlDecoder] - [10:17:03,946][Thread 101701#0002]TCP服务端接收请求（或响应）报文解析正常！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:17:03,946][Thread 101701#0002]【交易开始】
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:17:03,946][Thread 101701#0002]接收到【行内】请求报文成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:17:03,946][Thread 101701#0002]接收到【行内】的报文内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:17:21,527][Default 101721#0000]定时下载当时所有文件开始！
+[tf.epccfe.sftp.util.SFTPChannel] - [10:17:21,550][Default 101721#0000]SFTP Session created.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:17:22,394][Default 101721#0000]SFTP Session connected.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:17:22,394][Default 101721#0000]SFTP Opening Channel.
+[tf.epccfe.sftp.util.SFTPChannel] - [10:17:22,531][Default 101721#0000]Connected successfully to ftpHost = 59.151.65.97,as ftpUserName = jzyh, returning: com.jcraft.jsch.ChannelSftp@4fc0cb76
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:17:22,573][Default 101722#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:17:22,613][Default 101722#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[tf.epccfe.sftp.util.SFTPAllFile] - [10:17:22,652][Default 101722#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[tf.epccfe.schd.sftp.SFTPAllFileJob] - [10:17:22,658][Default 101721#0000]定时下载当时所有文件成功！
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [10:32:19,816][Thread 101701#0002]返回给【行内】的响应内容 : EpccfeHeader [pkgLength=null, msgTp=epcc.101.001.01, oriIssrId=G4000311000018, pyerAcctTp=00, pyeeAcctTp=04, reservedField=1000F0617T8800      ]
+EpccfeBody [pkgXml=<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>, pkgS={S:signArea}]
+[boot.tcp.codec.TcpXmlEncoder] - [10:32:21,930][Thread 101701#0002]发往【行内】TCP请求（或响应）报文长度和内容：【1640】epcc.101.001.01G400031100001800041000F0617T8800      <?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+
+[io.netty.channel.AbstractChannelHandlerContext] - [10:32:23,510]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.201.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<PyerInf>
+			<PyerAcctIssrId>C1010411000013</PyerAcctIssrId>
+			<PyerAcctTp>00</PyerAcctTp>
+			<SgnNo>130073386132613885</SgnNo>
+			<PyerTrxTrmTp>02</PyerTrxTrmTp>
+			<PyerTrxTrmNo>F93P72HCFR9M</PyerTrxTrmNo>
+		</PyerInf>
+		<RPFlg>2</RPFlg>
+		<PyeeInf>
+			<PyeeAcctIssrId>Z2007933000010</PyeeAcctIssrId>
+			<PyeeAcctId>282704424720582705</PyeeAcctId>
+			<PyeeNm>kerwin@cong.x</PyeeNm>
+			<PyeeAcctTp>04</PyeeAcctTp>
+			<PyeeCtryNo>CN</PyeeCtryNo>
+			<PyeeAreaNo>110102</PyeeAreaNo>
+			<PyeeTrxTrmTp>06</PyeeTrxTrmTp>
+			<PyeeTrxTrmNo>1D6AP1500</PyeeTrxTrmNo>
+		</PyeeInf>
+		<ResfdInf>
+			<InstgAcctId>1001278619005510977</InstgAcctId>
+			<InstgAcctNm>CustAmount</InstgAcctNm>
+			<ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+		</ResfdInf>
+		<TrxInf>
+			<TrxId>20170913000000003</TrxId>
+			<TrxDtTm>2017-05-18T16:13:22</TrxDtTm>
+			<TrxAmt>CNY518.17</TrxAmt>
+			<TrxCtgy>0110</TrxCtgy>
+			<BizTp>100002</BizTp>
+			<AcctInTp>02</AcctInTp>
+		</TrxInf>
+		<OrdrInf>
+			<OrdrId>20170518100615209112</OrdrId>
+			<OrdrDesc>2|2|chd%07515%01%14%0851902%5945%2#2#brd^CNY201.70^1#fng^CNY
+				181.71^1|shy%79231%01%14%210100X%8912%1#1#gyr^CNY134.76^1|</OrdrDesc>
+			<PltfrmNm>batpay</PltfrmNm>
+		</OrdrInf>
+		<BatchId>B201705180016</BatchId>
+		<TrxDevcInf>140.205.112.1|F0E1D2C3B4A5||||||</TrxDevcInf>
+	</MsgBody>
+</root>
+{S:signArea}
+

@@ -1,0 +1,326 @@
+[17:51:52,436][Default 175152#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[17:51:52,479][Default 175152#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[17:51:52,521][Default 175152#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[17:54:21,099][Default 175421#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[17:54:21,140][Default 175421#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[17:54:21,180][Default 175421#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[17:55:45,898][Thread 175545#0024]---【4】     毫秒  [线程全程] 耗时--------
+[17:55:45,911][Thread 175545#0022]---【119】   毫秒  [线程全程] 耗时--------
+[17:57:53,450][Thread 175753#0051]---【3】     毫秒  [线程全程] 耗时--------
+[17:57:53,462][Thread 175752#0049]---【44】    毫秒  [线程全程] 耗时--------
+[17:59:49,930][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[17:59:49,972][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[17:59:50,012][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[17:59:59,075][Thread 175959#0003]---【6】     毫秒  [线程全程] 耗时--------
+[17:59:59,092][Thread 175958#0001]---【132】   毫秒  [线程全程] 耗时--------
+[18:05:43,334][Default 180543#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:05:43,377][Default 180543#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:05:43,417][Default 180543#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:05:43,878][Thread 180521#0006]---【16215】 毫秒  [线程全程] 耗时16秒【10秒警告】--------
+[18:05:43,901][Thread 180520#0004]---【22026】 毫秒  [线程全程] 耗时22秒【10秒警告】--------
+[18:07:14,680][Thread 180701#0009]---【11202】 毫秒  [线程全程] 耗时11秒【10秒警告】--------
+[18:07:14,707][Thread 180700#0007]---【13091】 毫秒  [线程全程] 耗时13秒【10秒警告】--------
+[18:10:00,473][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:10:00,513][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:10:00,553][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:11:55,899][Default 181155#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:11:55,941][Default 181155#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:11:55,981][Default 181155#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:12:34,700]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.timeout.ReadTimeoutException
+[18:13:08,717][Thread 181134#0012]---【92227】 毫秒  [线程全程] 耗时92秒【10秒警告】--------
+[18:15:00,545][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:15:00,585][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:15:00,627][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:15:01,165][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:15:01,206][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:15:01,246][Default 175949#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:15:33,964][Default 181533#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:15:34,007][Default 181533#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:15:34,047][Default 181533#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:16:15,479]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.timeout.ReadTimeoutException
+[18:16:51,207][Thread 181512#0015]---【35726】 毫秒  [线程全程] 耗时35秒【10秒警告】--------
+[18:18:21,940][Default 181821#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:18:21,982][Default 181821#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:18:22,022][Default 181821#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:19:00,885]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.timeout.ReadTimeoutException
+[18:23:33,640][Default 182333#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:23:33,681][Default 182333#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:23:33,721][Default 182333#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:23:52,174][Default 182352#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:23:52,216][Default 182352#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:23:52,256][Default 182352#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:24:03,990][Default 182403#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:24:04,033][Default 182403#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:24:04,074][Default 182403#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:24:42,972]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.timeout.ReadTimeoutException
+[18:25:52,288]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+[18:26:07,746][Default 182607#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:26:07,789][Default 182607#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:26:07,830][Default 182607#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:27:56,182][Default 182756#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:27:56,223][Default 182756#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:27:56,263][Default 182756#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:28:08,801]Failed to mark a promise as success because it has failed already: DefaultChannelPromise@61960044(failure: io.netty.handler.codec.EncoderException: java.lang.ArithmeticException: / by zero), unnotified cause:
+io.netty.handler.codec.EncoderException: java.lang.ArithmeticException: / by zero
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:816)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:723)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:816)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:723)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831)
+	at boot.tcp.server.EpccfeTcpXmlServerHandler.messageReceived(EpccfeTcpXmlServerHandler.java:57)
+	at boot.tcp.server.EpccfeTcpXmlServerHandler.channelRead0(EpccfeTcpXmlServerHandler.java:81)
+	at boot.tcp.server.EpccfeTcpXmlServerHandler.channelRead0(EpccfeTcpXmlServerHandler.java:18)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:934)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.ArithmeticException: / by zero
+	at boot.tcp.codec.LengthHeaderPrepender.encode(LengthHeaderPrepender.java:216)
+	at boot.tcp.codec.LengthHeaderPrepender.encode(LengthHeaderPrepender.java:1)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88)
+	... 47 more
+[18:28:08,816][Thread 182748#0001]---【19453】 毫秒  [线程全程] 耗时19秒【10秒警告】--------
+[18:28:09,286][Default 182809#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:28:09,328][Default 182809#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:28:09,369][Default 182809#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:29:08,798]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.timeout.ReadTimeoutException
+[18:29:32,290][Default 182333#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:29:32,328][Default 182333#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:29:32,369][Default 182333#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:31:09,664][Default 183109#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:31:09,704][Default 183109#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:31:09,743][Default 183109#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:31:17,555][Default 183117#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:31:17,598][Default 183117#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:31:17,638][Default 183117#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[18:31:21,697]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+[18:31:30,495][Default 183130#0000]服务器端不存在文件夹：//C1081421000051/20171124
+[18:31:30,537][Default 183130#0000]服务器端不存在文件夹：//C1081421000051/20171123
+[18:31:30,577][Default 183130#0000]服务器端不存在文件夹：//C1081421000051/20171125
+[09:09:12,441][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:09:12,484][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:09:12,524][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:09:28,630][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:09:28,710][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:09:28,792][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:10:01,940][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:10:02,009][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:10:02,085][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:10:02,158][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:10:02,230][Default 090912#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:10:02,301][Default 090928#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:10:48,362][Default 091048#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:10:48,403][Default 091048#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:10:48,443][Default 091048#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:11:27,733]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.timeout.ReadTimeoutException
+[09:23:17,742][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:23:17,782][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:23:17,822][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:25:10,483][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:25:10,524][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:25:10,563][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:25:31,041][Default 092531#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:25:31,083][Default 092531#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:25:31,123][Default 092531#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:40:00,630][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:40:00,712][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:40:00,754][Default 092317#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:40:01,159][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:40:01,208][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:40:01,272][Default 092510#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:44:15,413][Thread 092510#0001]---【1141199】毫秒  [线程全程] 耗时1141秒【10秒警告】--------
+[09:44:19,503][Thread 092509#0001]---【1149406】毫秒  [线程全程] 耗时1149秒【10秒警告】--------
+[09:46:26,435][Default 094626#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:46:26,476][Default 094626#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:46:26,515][Default 094626#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:46:46,207][Default 094646#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:46:46,254][Default 094646#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:46:46,294][Default 094646#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:46:59,238][Default 094659#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:46:59,280][Default 094659#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:46:59,326][Default 094659#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:48:27,274]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+[09:49:30,378][Default 094930#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:49:30,420][Default 094930#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:49:30,460][Default 094930#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:50:53,358][Default 095053#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:50:53,400][Default 095053#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:50:53,440][Default 095053#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:51:01,257][Default 095101#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:51:01,298][Default 095101#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:51:01,338][Default 095101#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[09:53:41,805][Thread 095040#0001]---【179988】毫秒  [线程全程] 耗时179秒【10秒警告】--------
+[09:53:48,109][Thread 095039#0001]---【187665】毫秒  [线程全程] 耗时187秒【10秒警告】--------
+[09:58:09,391][Default 095809#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[09:58:09,432][Default 095809#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[09:58:09,472][Default 095809#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:00:19,052][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:00:19,094][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:00:19,134][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:00:40,982]Unexpected exception in the selector loop.
+java.lang.OutOfMemoryError: PermGen space
+[10:00:42,252]Unexpected exception in the selector loop.
+java.lang.OutOfMemoryError: PermGen space
+[10:00:43,508]Unexpected exception in the selector loop.
+java.lang.OutOfMemoryError: PermGen space
+[10:01:01,169][Default 100101#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:01:01,209][Default 100101#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:01:01,248][Default 100101#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:02:48,451]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)
+[10:04:18,939][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:04:18,981][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:04:19,021][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:04:54,891][Default 100454#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:04:54,931][Default 100454#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:04:54,970][Default 100454#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:06:29,895][Thread 100433#0001]---【112959】毫秒  [线程全程] 耗时112秒【10秒警告】--------
+[10:06:34,668][Thread 100432#0003]---【121101】毫秒  [线程全程] 耗时121秒【10秒警告】--------
+[10:10:00,571][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:10:00,582][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:10:00,611][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:10:00,622][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:10:00,650][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:10:00,661][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:15:00,457][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:15:00,497][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:15:00,537][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:15:00,776][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:15:00,816][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:15:00,855][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:15:01,014][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:15:01,058][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:15:01,108][Default 100019#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:15:01,323][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:15:01,363][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:15:01,403][Default 100418#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:17:22,573][Default 101722#0000]服务器端不存在文件夹：//C1081421000051/20171201
+[10:17:22,613][Default 101722#0000]服务器端不存在文件夹：//C1081421000051/20171130
+[10:17:22,652][Default 101722#0000]服务器端不存在文件夹：//C1081421000051/20171202
+[10:32:23,510]An exception 'java.lang.NullPointerException' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)

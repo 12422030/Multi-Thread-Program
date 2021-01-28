@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="namespace_string">
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.101.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>sdfwqerdsafsdfwerqweifjsadlkjfoiajeqlkfjsdoijfasdfjoiqwjeflksadjvoiasdlajdsofijewflkasdjfoianf;aisdjflkajfoisajdflkasdjfoiasdjfalkdjfoiwejlkasjdfoaisjdfqlkwjefoiasdjflkwajefoiajdsflksadjfoiqjweflkasjdfoiajseflwjfoiasjdflkwqjefoisjdflsajdflasdfasdfqasdfwefqwerqewfasdfasdfojloijlknmdifu9qwejjncjvxcivuadhfqnkjhsadfwqefidshfoiuhwqefsadjfoiejwflksasdfqwejdf==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>1234567890qwertyuiopasdfghjklzxcvbnm</MsgBody>
+</root>
+{S:qweyioasdfoiqwejlasdjfoiqjwelfkjsadoifjqwlkejfiaosdufkjwqeflkjsadoifjasdlkfjoisaudqlkwjfoiajsdfljqweoifjsalkdfjoisadjfqlweadsifojqwelfjaoisdjflkwjfoiasjdflkasdjfoiqjweflkjsadoifjaslkdfjaoijqlkwjflkasjdfnvkjavhaoidsfawjfeoiasdhfuiahfkqwhfiuhsadfjasoidfjewqlkfjasoidjfaijfaisjdflakdsjflkasjfd==}

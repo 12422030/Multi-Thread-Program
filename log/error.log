@@ -1,0 +1,395 @@
+[boot.http.server.EpccfeHttpXmlServerHandler] - [2017-11-24 17:52:03 GMT+0800] [Thread 175202#0006]Unable to access binding information for class tf.epccfe.entity.MsgHeader
+Make sure the binding has been compiled
+Unable to access binding information for class tf.epccfe.entity.MsgHeader
+Make sure the binding has been compiled
+java.lang.NoSuchFieldException: JiBX_bindingList
+	at java.lang.Class.getDeclaredField(Class.java:1948)
+	at org.jibx.runtime.BindingDirectory.getBindingList(BindingDirectory.java:68)
+	at org.jibx.runtime.BindingDirectory.getFactory(BindingDirectory.java:211)
+	at tf.epccfe.entity.Xml2Entity.xml2MsgHeader(Xml2Entity.java:16)
+	at tf.epccfe.flow.ERequestSign.excSign(ERequestSign.java:25)
+	at boot.http.server.EpccfeHttpXmlServerHandler.messageReceived(EpccfeHttpXmlServerHandler.java:40)
+	at boot.http.server.EpccfeHttpXmlServerHandler.channelRead0(EpccfeHttpXmlServerHandler.java:84)
+	at boot.http.server.EpccfeHttpXmlServerHandler.channelRead0(EpccfeHttpXmlServerHandler.java:1)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:934)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+
+[tf.epccfe.schd.TgServCheckupJob] - [2017-11-24 17:52:10 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查状态异常，已停止服务！
+[boot.forward.target.TgServChecker] - [2017-11-24 17:52:40 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:52:45 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:52:50 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:52:55 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:00 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:05 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:10 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:15 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:20 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:25 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:30 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:35 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:40 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:45 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:53:50 GMT+0800] [Default 175135#0000]服务器[epccb2]健康检查执行失败
+[tf.epccfe.schd.TgServCheckupJob] - [2017-11-24 17:54:35 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查状态异常，已停止服务！
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:05 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:10 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:15 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:20 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:25 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:30 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:35 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:40 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:45 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:50 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:55:55 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:00 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:05 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:10 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:15 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:20 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:25 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:30 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:35 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:40 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:45 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:50 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:56:55 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:00 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:05 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:10 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:15 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:20 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:25 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:30 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:35 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:40 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:45 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:50 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+[boot.forward.target.TgServChecker] - [2017-11-24 17:57:55 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:00 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:05 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:10 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:15 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:20 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:25 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:30 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:35 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:40 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:45 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:50 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:58:55 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:59:00 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:59:05 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:59:10 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:59:15 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.forward.target.TgServChecker] - [2017-11-24 17:59:20 GMT+0800] [Default 175400#0000]服务器[epccb2]健康检查执行失败
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at common.comm.tcp.CommTcp.read(CommTcp.java:83)
+	at boot.forward.target.TgServChecker.run(TgServChecker.java:47)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [2017-11-24 18:13:08 GMT+0800] [Thread 181134#0012]您的主机中的软件中止了一个已建立的连接。
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.tcp.server.EpccfeTcpXmlServerHandler] - [2017-11-24 18:16:51 GMT+0800] [Thread 181512#0015]您的主机中的软件中止了一个已建立的连接。
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:744)
+[boot.http.server.EpccfeHttpXmlServerHandler] - [2017-12-01 09:58:17 GMT+0800] [Thread 095817#0001]Unable to access binding information for class tf.epccfe.entity.MsgHeader
+Make sure the binding has been compiled
+Unable to access binding information for class tf.epccfe.entity.MsgHeader
+Make sure the binding has been compiled
+java.lang.NoSuchFieldException: JiBX_bindingList
+	at java.lang.Class.getDeclaredField(Class.java:1882)
+	at org.jibx.runtime.BindingDirectory.getBindingList(BindingDirectory.java:68)
+	at org.jibx.runtime.BindingDirectory.getFactory(BindingDirectory.java:211)
+	at tf.epccfe.entity.Xml2Entity.xml2MsgHeader(Xml2Entity.java:16)
+	at tf.epccfe.flow.ERequestSign.excSign(ERequestSign.java:25)
+	at boot.http.server.EpccfeHttpXmlServerHandler.messageReceived(EpccfeHttpXmlServerHandler.java:40)
+	at boot.http.server.EpccfeHttpXmlServerHandler.channelRead0(EpccfeHttpXmlServerHandler.java:84)
+	at boot.http.server.EpccfeHttpXmlServerHandler.channelRead0(EpccfeHttpXmlServerHandler.java:1)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:934)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)
+
+[org.quartz.core.JobRunShell] - [2017-12-01 10:00:28 GMT+0800] Job DEFAULT.SFTPTestFileJob threw an unhandled Exception: 
+java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.findBootstrapClass(Native Method)
+	at java.lang.ClassLoader.findBootstrapClassOrNull(ClassLoader.java:926)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:297)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:295)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.jcraft.jsch.jce.AES256CTR.init(AES256CTR.java:56)
+	at com.jcraft.jsch.Session.checkCipher(Session.java:2497)
+	at com.jcraft.jsch.Session.checkCiphers(Session.java:2474)
+	at com.jcraft.jsch.Session.send_kexinit(Session.java:624)
+	at com.jcraft.jsch.Session.connect(Session.java:307)
+	at com.jcraft.jsch.Session.connect(Session.java:183)
+	at tf.epccfe.sftp.util.SFTPChannel.getChannel(SFTPChannel.java:71)
+	at tf.epccfe.sftp.util.SFTPChannel.getChannel(SFTPChannel.java:28)
+	at tf.epccfe.schd.sftp.SFTPAllFileJob.execute(SFTPAllFileJob.java:39)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:557)
+[org.quartz.simpl.SimpleThreadPool] - [2017-12-01 10:00:28 GMT+0800] Error while executing the Runnable: 
+java.lang.OutOfMemoryError: PermGen space
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:224)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:557)
+[boot.tcp.server.EpccfeTcpServer] - [2017-12-01 10:04:07 GMT+0800] [Default 100406#0000]前置HTTP服务器启动异常!
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:126)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:130)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:988)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:250)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:365)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)
+[boot.http.server.EpccfeHttpXmlServerHandler] - [2017-12-01 10:06:34 GMT+0800] [Thread 100432#0003]您的主机中的软件中止了一个已建立的连接。
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:662)

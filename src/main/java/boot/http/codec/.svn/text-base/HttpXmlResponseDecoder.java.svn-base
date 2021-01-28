@@ -1,0 +1,60 @@
+package boot.http.codec;
+
+import static io.netty.handler.codec.http.HttpResponseStatus.BAD_REQUEST;
+import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
+import io.netty.buffer.Unpooled;
+import io.netty.channel.ChannelFutureListener;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.codec.http.DefaultFullHttpResponse;
+import io.netty.handler.codec.http.FullHttpResponse;
+import io.netty.handler.codec.http.HttpHeaderNames;
+import io.netty.handler.codec.http.HttpResponseStatus;
+import io.netty.util.CharsetUtil;
+
+import java.util.List;
+
+import tf.epccfe.sys.SysInfo;
+
+import common.sys.TxThreadLogger;
+import common.sys.TxThreadLoggerFactory;
+
+import boot.http.message.HttpXmlResponseMessage;
+
+/**
+ * @author RockChan
+ * @date 2017.08.23
+ * @version 1.0
+ */
+public class HttpXmlResponseDecoder extends
+        AbstractHttpXmlDecoder<FullHttpResponse> {
+	private static TxThreadLogger decoderLogger = TxThreadLoggerFactory.getInstance(HttpXmlResponseDecoder.class);
+
+    @Override
+	protected void decode(ChannelHandlerContext ctx, FullHttpResponse resp,
+			List<Object> out) throws Exception {
+
+    	if (SysInfo.MonitorFlag) {
+    		decoderLogger.debug("HTTP服务端接收到【网联】响应：" + ctx.toString());
+    	}
+    	
+		if (!resp.decoderResult().isSuccess()) {
+			sendError(ctx, BAD_REQUEST);
+			return;
+		}
+
+		HttpXmlResponseMessage resMsg = new HttpXmlResponseMessage(resp,
+				decode0(ctx, resp.content()));
+		out.add(resMsg);
+	}
+
+	private static void sendError(ChannelHandlerContext ctx,
+			HttpResponseStatus status) {
+		FullHttpResponse response = new DefaultFullHttpResponse(HTTP_1_1,
+				status, Unpooled.copiedBuffer("Failure: " + status.toString()
+						+ "\r\n", CharsetUtil.UTF_8));
+		response.headers().set(HttpHeaderNames.CONTENT_TYPE,
+				"application/xml;charset=utf-8");
+		ctx.writeAndFlush(response).addListener(ChannelFutureListener.CLOSE);
+
+	}
+}

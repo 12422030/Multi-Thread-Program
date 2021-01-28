@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.999.999.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>gTLkYQM7h==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<FilePath>5.3.1.40:22/C1010511003703/20170520/</FilePath>
+		<FileNameList>
+			<FileName>B201705200001_01_01.zip.sec</FileName>
+		</FileNameList>
+	</MsgBody>
+</root>
+{S:signArea}
+

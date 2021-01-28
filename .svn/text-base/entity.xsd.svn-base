@@ -1,0 +1,15 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tf.epccfe/entity" elementFormDefault="qualified" targetNamespace="http://tf.epccfe/entity">
+  <xs:element type="tns:epcc999Body" name="epcc999Body"/>
+  <xs:complexType name="epcc999Body">
+    <xs:sequence>
+      <xs:element type="xs:string" name="filePath" minOccurs="0"/>
+      <xs:element name="fileNameList" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="fileName" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

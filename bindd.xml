@@ -1,0 +1,13 @@
+<binding name="bindd" package="tf.epccfe.entity">
+  <mapping abstract="true" type-name="msgBody" class="tf.epccfe.entity.Epcc999Body">
+    <value style="element" name="FilePath" field="FilePath" usage="optional"/>
+    <structure field="FileNameList" usage="optional" name="FileNameList">
+      <collection field="FileNames" usage="optional" create-type="java.util.ArrayList">
+        <value name="FileName" type="java.lang.String"/>
+      </collection>
+    </structure>
+  </mapping>
+  <mapping class="tf.epccfe.entity.Epcc999Body" name="MsgBody">
+    <structure map-as="msgBody"/>
+  </mapping>
+</binding>

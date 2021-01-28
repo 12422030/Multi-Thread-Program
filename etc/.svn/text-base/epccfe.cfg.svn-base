@@ -1,0 +1,29 @@
+#系统通讯参数
+EPCCS_LISTEN_PORT=7070                                  #应用SSL监控端口
+EPCCB_LISTEN_PORT=7080                                  #应用NAP监控端口
+DEFAULT_TIMEOUT=60                                      #默认的超时时限（秒）
+#行方参数
+ISSRID=C1081421000051                                   #银行金融机构编码
+SIGN_SN=4000372804                                      #银行公钥证书序列号
+#系统文件路径参数
+APP_TMP_PATH=/tmp                                       #临时文件路径（相对路径）
+SFTP_LOCAL_BASE_PATH=../sftpFiles                       #SFTP本地根目标（相对路径）
+#系统标志位参数
+MONITOR_FLAG=0                                          #启用系统性能监控标志
+HSM_USE_FLAG=0                                          #是否启用前置验签标志
+#系统启动标志位参数
+SCHD_SERV_FLAG=1                                        #是否为定时任务服务器
+#系统性能参数
+THREAD_POOL_MAX_SIZE=20                                 #线程池最大线程数（建议10到50）
+
+#SFTP文件服务器参数
+SFTP_REQ_HOST=59.151.65.97                              #SFTP文件服务器HOST
+SFTP_REQ_USERNAME=jzyh                                  #SFTP文件服务器用户名
+SFTP_REQ_PASSWORD=123456                                #SFTP文件服务器用户密码
+SFTP_REQ_PORT=9822                                      #SFTP文件服务器端口号
+SFTP_DOWNLOAD_LIMIT=1280                                #SFTP下载文件限速（10~4096KB）,2M带宽最高可达256KB
+SFTP_ROOT_PATH=/                                        #SFTP文件根路径
+SFTP_PROXY_FLAG=0                                       #SFTP是否使用代理
+SFTP_PROXY_HOST=192.168.10.202                          #SFTP代理服务器HOST
+SFTP_PROXY_PORT=6789                                    #SFTP代理服务器端口号
+SFTP_PROXY_MODE=HTTP                                    #SFTP代理服务器代理方式(HTTP/SOCKS4/SOCKS5)

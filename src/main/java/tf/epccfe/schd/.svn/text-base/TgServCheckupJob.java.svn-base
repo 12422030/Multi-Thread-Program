@@ -1,0 +1,29 @@
+package tf.epccfe.schd;
+
+import org.quartz.Job;
+import org.quartz.JobExecutionContext;
+import org.quartz.JobExecutionException;
+
+import common.sys.TxThreadLogger;
+import common.sys.TxThreadLoggerFactory;
+
+/**
+ * @author RockChan
+ * @date 2017.08.25
+ * @version 1.0
+ * @TASKNO 
+ */
+public class TgServCheckupJob implements Job {
+	
+    private static TxThreadLogger _log = TxThreadLoggerFactory.getInstance(TgServCheckupJob.class);
+    
+
+    @Override
+    public void execute(JobExecutionContext context) throws JobExecutionException {
+        try {
+        	// TODO
+        } catch (Exception e) {
+            _log.error("行内渠道服务器健康检查失败！", e);
+        }
+    }
+}

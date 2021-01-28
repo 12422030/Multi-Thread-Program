@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<MsgHeader>
+		<SndDt>2017-07-24T23:59:12</SndDt>
+		<MsgTp>epcc.101.001.01</MsgTp>
+		<IssrId>G4000311000018</IssrId>
+		<Drctn>22</Drctn>
+		<SignSN>4000372804</SignSN>
+		<NcrptnSN>4000068829</NcrptnSN>
+		<DgtlEnvlp>ZPw==</DgtlEnvlp>
+	</MsgHeader>
+	<MsgBody>
+		<SgnInf>
+			<SgnAcctIssrId>C1010211000012</SgnAcctIssrId>
+			<SgnAcctTp>00</SgnAcctTp>
+			<SgnAcctId>6222020200102590617</SgnAcctId>
+			<SgnAcctNm>Mountain</SgnAcctNm>
+			<IDTp>01</IDTp>
+			<IDNo>110102199909090012</IDNo>
+			<MobNo>13987654321</MobNo>
+		</SgnInf>
+		<TrxInf>
+			<TrxCtgy>0202</TrxCtgy>
+			<TrxId>2017051712345678901234560010203</TrxId>
+			<TrxDtTm>2017-05-17T20:47:18</TrxDtTm>
+			<AuthMsg>648809</AuthMsg>
+		</TrxInf>
+		<InstgInf>
+			<InstgId>Z2004944000010</InstgId>
+			<InstgAcct>286283840352708879</InstgAcct>
+		</InstgInf>
+	</MsgBody>
+</root>
+{S:nBDO94grYW6wKXfxuxyyttibmJPyf9A5wa3/YdeETOpH3y9h9rUVoTQOu5SG4rcB8BfJIxH8FFS
+8p2S0uqiekneN4Jzi7VIUZKDIjGOdaMnRZjCexjjELDNR5LXL/LbpXbJJwU5RtvirdfUqiPiXIsNr7
+/5trd4UeuBDt0sgg/WEdkBhqqfzRsfW52Pda6e9bZ+XyKap7vlsEm6kUMIUd5TUdNrG4UjlBJd35yM
+1ixUp+EG5kjVMHdnGvY6OP41YcNHcFl0JCwN46LPp/kC6Q8J0j8UUHuv4zLRhJcsBJ5wkYw5HUGhof
+soDdy3oiUrEp7LXOJMAOBIBU1hl8bIhFg==}
+

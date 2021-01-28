@@ -1,0 +1,23 @@
+<binding name="binda" package="tf.epccfe.entity">
+  <mapping abstract="true" type-name="comResponse" class="tf.epccfe.entity.ComResponse">
+    <structure field="MsgHeader" usage="optional" name="MsgHeader">
+      <value style="element" name="SndDt" field="SndDt" usage="optional"/>
+      <value style="element" name="MsgTp" field="MsgTp" usage="optional"/>
+      <value style="element" name="IssrId" field="IssrId" usage="optional" />
+      <value style="element" name="Drctn" field="Drctn" />
+      <value style="element" name="SignSN" field="SignSN" usage="optional"/>
+      <value style="element" name="NcrptnSN" field="NcrptnSN" usage="optional"/>
+      <value style="element" name="DgtlEnvlp" field="DgtlEnvlp" usage="optional"/>
+    </structure>
+    <structure field="MsgBody" usage="optional" name="MsgBody">
+      <structure field="sysRtnInf" usage="optional" name="SysRtnInf">
+        <value style="element" name="SysRtnCd" field="SysRtnCd" usage="optional"/>
+        <value style="element" name="SysRtnDesc" field="SysRtnDesc" usage="optional"/>
+        <value style="element" name="SysRtnTm" field="SysRtnTm" usage="optional"/>
+      </structure>
+    </structure>
+  </mapping>
+  <mapping class="tf.epccfe.entity.ComResponse" name="root">
+    <structure map-as="comResponse"/>
+  </mapping>
+</binding>

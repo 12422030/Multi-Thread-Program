@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://www.quartz-scheduler.org/xml/JobSchedulingData"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.quartz-scheduler.org/xml/JobSchedulingData http://www.quartz-scheduler.org/xml/job_scheduling_data_2_0.xsd"
+    version="2.0">
+    
+    <processing-directives>
+        <!-- if there are any jobs/trigger in scheduler of same name (as in this file), overwrite them -->
+        <overwrite-existing-data>true</overwrite-existing-data>
+        <!-- if there are any jobs/trigger in scheduler of same name (as in this file), and over-write is false, ignore them rather then generating an error -->
+        <ignore-duplicates>false</ignore-duplicates> 
+    </processing-directives>
+    
+    <schedule>
+	     
+	     <!-- 系统参数定时刷新 -->
+	     <job>
+	     	<name>SysInfoRefreshJob</name>
+	     	<job-class>tf.epccfe.schd.SysInfoRefreshJob</job-class>
+	     	<durability>true</durability>
+	     	<recover>false</recover>
+	     </job>
+	     
+	     <trigger>
+	     	<cron>
+	     		<name>SysInfoRefreshTrigger</name>
+	     		<job-name>SysInfoRefreshJob</job-name>
+	     		<cron-expression>10/20 * * * * ?</cron-expression>
+	     	</cron>
+	     </trigger>
+	     
+	     <!-- 清算文件定时下载（测试） -->
+	     <job>
+	     	<name>SFTPTestFileJob</name>
+	     	<job-class>tf.epccfe.schd.sftp.SFTPAllFileJob</job-class>
+	     	<durability>true</durability>
+	     	<recover>false</recover>
+	     </job>
+	     <!-- 
+	     <trigger>
+	     	<cron>
+	     		<name>SFTPTestFileTrigger</name>
+	     		<job-name>SFTPTestFileJob</job-name>
+	     		<cron-expression>0 5 0 * * ?</cron-expression>
+	     	</cron>
+	     </trigger>
+	      -->
+	     <trigger>
+	     	<simple>
+	     		<name>SFTPTestFileTrigger</name>
+	     		<job-name>SFTPTestFileJob</job-name>
+	     		<start-time-seconds-in-future>20</start-time-seconds-in-future>
+	     		<repeat-count>0</repeat-count>
+	     		<repeat-interval>1</repeat-interval>
+	     	</simple>
+	     </trigger>
+	     
+	     <job>
+	     	<name>SFTPAllFileJob</name>
+	     	<job-class>tf.epccfe.schd.sftp.SFTPAllFileJob</job-class>
+	     	<durability>true</durability>
+	     	<recover>false</recover>
+	     </job>
+
+	     <trigger>
+	     	<cron>
+	     		<name>SFTPAllFileTrigger</name>
+	     		<job-name>SFTPAllFileJob</job-name>
+	     		<cron-expression>0 10/30 * * * ?</cron-expression>
+	     	</cron>
+	     </trigger>
+	     
+	     <!-- 对账明细文件定时下载 -->
+	     <job>
+	     	<name>SFTPAllStatementsFileJob</name>
+	     	<job-class>tf.epccfe.schd.sftp.SFTPAllStatementsFileJob</job-class>
+	     	<durability>true</durability>
+	     	<recover>false</recover>
+	     	<job-data-map>
+	     		<entry>
+	     			<key>SFTP-servers</key>
+	     			<value>59.151.65.97:9822;59.151.65.97:8622</value>
+	     		</entry>
+	     	</job-data-map>
+	     </job>
+
+	     <trigger>
+	     	<cron>
+	     		<name>SFTPAllStatementsFileTrigger</name>
+	     		<job-name>SFTPAllStatementsFileJob</job-name>
+	     		<cron-expression>0 15/30 * * * ?</cron-expression>
+	     	</cron>
+	     </trigger>
+	     
+	     <!-- 服务器健康检查 -->
+	     <job>
+	     	<name>TgServCheckupJob</name>
+	     	<job-class>tf.epccfe.schd.TgServCheckupJob</job-class>
+	     	<durability>true</durability>
+	     	<recover>false</recover>
+	     	<job-data-map>
+	     		<entry>
+	     			<key>delaySecond</key>
+	     			<value>30</value>
+	     		</entry>
+	     	</job-data-map>
+	     </job>
+
+	     <trigger>
+	     	<cron>
+	     		<name>TgServCheckupTrigger</name>
+	     		<job-name>TgServCheckupJob</job-name>
+	     		<cron-expression>0/5 1 1 * * ?</cron-expression>
+	     	</cron>
+	     </trigger>
+	     
+    </schedule>    
+</job-scheduling-data>
